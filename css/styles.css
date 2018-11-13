@@ -115,10 +115,6 @@ body {
 #panel1 h1
 {
     color: white;
-}
-
-h1
-{
     margin: 20% 5% 5%;
 }
 
@@ -140,12 +136,27 @@ a:hover
 {
     text-decoration: underline;
 }
-table
-{
+table {
     border: 1px black solid;
+    margin:auto;
 }
 
-#caption-container
+#picture-container
+{
+    margin: 10px;
+}
+
+#picturecaption-container
 {
     border: 1px black solid;
+    width:315px;
+}
+#caption-container
+{
+    padding: 0 5px 5px;
+}
+
+#caption-container h3
+{
+    margin-top: 5px;
 }
