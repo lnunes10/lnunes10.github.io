@@ -1,0 +1,117 @@
+body {
+    font-family: Helvetica, "Helvetica Neue", SansSerif;
+    margin: 0;
+}
+#top {
+    background-color: white;
+}
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu {
+    height: 80px;
+    line-height: 80px;
+    width: 368px;
+    float: left;
+    text-align:right;
+}
+
+#menu ul
+{
+    padding: 0;
+   display:inline;
+}
+#logo {
+    width: 592px;
+    float: left;
+}
+
+#menu li {
+    display: inline;
+}
+
+#banner {
+    clear: both;
+    background-size: contain;
+    height: 500px;
+
+
+}
+
+#hero-text {
+    position: relative;
+    background-color: white;
+    width: 367px;
+    top: 50px;
+    left: 100px;
+}
+#hero-text h1 {
+    margin: 0px;
+}
+.std-padding {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.borderThin {
+    border: 1px solid black;
+
+}
+#content {
+    width: 544px;
+    background-color: green;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 27px;
+
+}
+
+.floatLeft {
+    float: left;
+}
+#sidebar {
+    background-color: chocolate;
+    width: 368px;
+}
+.clear-fix {
+    display:inline-block;
+    width:100%;
+    clear:both;
+}
+#footer {
+    background-color: black;
+    color:white;
+    text-align:center;
+
+}
+
+.centerText {
+    text-align: center;
+
+}
+#panels
+{
+    background-image:url("../images/adventure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#panel1, #panel2 {
+
+    float: left;
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+#panel1
+{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#panel1 h1
+{
+    margin: 20% 5% 5%;
+}
